@@ -22,13 +22,13 @@ public class Fila <T>{
         this.tamanho++;
     }
     public T remover(){
-        this.tamanho--;
         if(!this.posicaoValida(0)){
             throw new IndexOutOfBoundsException("Não existe elementos na fila");
         }
+        this.tamanho--;
         this.primeiro.setAnterior(null);
-        this.primeiro = this.primeiro.getProximo();
         Celula removido = this.primeiro;
+        this.primeiro = this.primeiro.getProximo();
         return (T) removido.getElemento();
     }
 
