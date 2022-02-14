@@ -40,6 +40,9 @@ public class Fila <T>{
         return this.tamanho;
     }
     public T espiar(){
+        if(this.primeiro == null){
+            return null;
+        }
         return (T) this.primeiro.getElemento();
     }
 
