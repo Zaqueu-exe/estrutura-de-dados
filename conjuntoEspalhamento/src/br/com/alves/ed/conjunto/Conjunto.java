@@ -71,7 +71,7 @@ public class Conjunto<T> {
         }
     }
 
-    public void redimensionaTabela(int novaCapacidade) {
+    private void redimensionaTabela(int novaCapacidade) {
         List<T> elementos = this.pegarTodos();
         this.tamanho = 0;
         this.tabela.clear();
