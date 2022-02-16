@@ -10,3 +10,5 @@ Pilha: É uma pilha do tipo dinâmica que tem a referência do próximo elemento
 Fila: É uma fila que tem todos os metodos comuns e é de tamanho dinâmico.
 
 Conjunto de espalhamento: Ou tabela hash é uma tabela que não deixa existir dois dados iguais e facilitando a busca pelos os mesmos não consumindo o tempo de forma linear na busca
+
+Mapa: É um mapa de espalhamento balanceado que tem algumas das caracteristicas da tabela hash mas que esse tem usa chave associada ao valor, igual a uma placa de carro, que cada placa deve somente se associada a um carro
